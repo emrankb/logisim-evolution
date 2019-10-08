@@ -144,6 +144,8 @@ class AboutCredits extends JComponent {
     lines.add(new CreditsLine(1, "Haute \u00C9cole d'Ing\u00E9nierie"));
     lines.add(new CreditsLine(1, "et de Gestion du Canton de Vaud"));
     lines.add(new CreditsLine(2, "http://www.heig-vd.ch"));
+    lines.add(new CreditsLine(1, "Florida Institute of Technology"));
+    lines.add(new CreditsLine(2, "http://fit.edu"));
 
     /*
      * If you fork Logisim, feel free to change the above lines, but please
