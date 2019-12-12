@@ -71,6 +71,7 @@ public class Wiring extends Library {
     new FactoryDescription("Transistor", S.getter("transistorComponent"), "trans0.gif", "Transistor"),
     new FactoryDescription("Transmission Gate",S.getter("transmissionGateComponent"),"transmis.gif","TransmissionGate"),
     new FactoryDescription("Bit Extender", S.getter("extenderComponent"), "extender.gif", "BitExtender"),
+    new FactoryDescription("Bit Mapper", S.getter("bitMapperComponent"), "mapper.png", BitMapper.class.getSimpleName())
   };
 
   private List<Tool> tools = null;
